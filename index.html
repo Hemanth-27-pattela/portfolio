@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!--tells browser "this is html"-->
+
+<html lang="en"> <!--start of the page-->
+
+<head>  <!--contains settings not visible on screen-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanth Pattela | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> <!--everything inside body is visible on the webpage-->
+
+    <nav> <!--navigation bar at the top-->
+
+        <div class="nav-logo">Hemanth Pattela</div>
+
+        <ul class="nav-links">  <!--unordered list-->
+            <li><a href="#about">About</a></li>  <!--list items-->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">Dark Mode</button>
+
+    </nav>
+<!-- About section -->
+    <section id="about">
+        <h1>Hi, I'm <span id="typed-name"></span></h1>
+        <p>B.Tech CSE student at SRM University, Amaravati</p>
+        <p>CGPA: 9.1 · Hackathon Winner · 150+ LeetCode Problems</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
+   <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <span class="skill">C++</span> <!-- each span is one skill pill -->
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Data Structures</span>
+            <span class="skill">HTML/CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Git & GitHub</span>
+            <span class="skill">OOP</span>
+        </div>
+    </section> 
+
+    <!-- Project Section -->
+     <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid"> <!-- container for project section-->
+
+            <div class="project-card"><!-- 1st project -->
+                 <h3>Bus Route Management</h3> <!-- project name -->
+                <p>Manages 50+ routes using Doubly Linked Lists with O(n) traversal.</p> <!-- description -->
+                <a href="https://github.com/Hemanth-27-pattela" target="_blank">GitHub →</a>
+            </div>
+
+             <div class="project-card"> <!-- second project card -->
+                <h3>Huffman Compression</h3>
+                <p>Text compression achieving ~40% file size reduction.</p>
+                <a href="https://github.com/Hemanth-27-pattela" target="_blank">GitHub →</a>
+            </div>
+
+            <div class="project-card"> <!-- third project card -->
+                <h3>Student Record System</h3>
+                <p>Manages 500+ student records with role-based login in C.</p>
+                <a href="https://github.com/Hemanth-27-pattela" target="_blank">GitHub →</a>
+            </div>
+
+        </div>
+     </section>
+     <!--Contact Section-->
+
+      <section id="contact"> <!-- contact section -->
+        <h2>Contact</h2>
+        <p>Email: pattelahemanth@gmail.com</p>
+        <p>Phone: +91 93927 13708</p>
+        <a href="https://linkedin.com/in/pattela-hemanth" target="_blank">LinkedIn →</a> <!-- opens linkedin in new tab -->
+    </section>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>
