@@ -3,7 +3,7 @@
 A clean, responsive personal portfolio website built from scratch using HTML, CSS, and JavaScript.
 
 ## Live Demo
-[hemanth-27-pattela.github.io/portfolio](https://hemanth-27-pattela.github.io/portfolio)
+[hemanth-27-pattela.github.io/portfolio](https://hemanth-27-pattela.github.io/portfolio/)
 
 ## Features
 - Typing animation on hero section
